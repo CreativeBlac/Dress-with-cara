@@ -143,7 +143,7 @@ body {
 /* home-page */
 
 #hero {
-    background-image: url(img/hero4.png);
+    background-image: url(/img/hero4.png);
     height: 90vh;
     background-position: top 25% right 0%;
     background-size: cover;
@@ -164,7 +164,7 @@ body {
 }
 
 #hero button {
-    background-image: url(img/button.png);
+    background-image: url(/img/button.png);
     border: none;
     background-color: transparent;
     color: #088178;
@@ -314,7 +314,7 @@ body {
 /* Shop Page Starts */
 
 #page-header {
-    background-image: url(img/banner/b1.jpg);
+    background-image: url(/img/banner/b1.jpg);
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -428,7 +428,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url(img/banner/b2.jpg);
+    background-image: url(/img/banner/b2.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -469,7 +469,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(img/banner/b17.jpg);
+    background-image: url(/img/banner/b17.jpg);
     min-width: 580px;
     background-position: center;
     background-size: cover;
@@ -502,7 +502,7 @@ body {
 }
 
 #sm-banner .banner-box2 {
-    background-image: url(img/banner/b10.jpg);
+    background-image: url(/img/banner/b10.jpg);
 }
 
 #banner3 {
@@ -517,7 +517,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    background-image: url(img/banner/b7.jpg);
+    background-image: url(/img/banner/b7.jpg);
     min-width: 30%;
     background-position: center;
     background-size: cover;
@@ -527,11 +527,11 @@ body {
 }
 
 #banner3 .banner-bo2 {
-    background-image: url(img/banner/b4.jpg);
+    background-image: url(/img/banner/b4.jpg);
 }
 
 #banner3 .banner-bo3 {
-    background-image: url(img/banner/b18.jpg);
+    background-image: url(/img/banner/b18.jpg);
 }
 
 #banner3 .banner-box h2 {
@@ -550,7 +550,7 @@ body {
 /* blog page */
 
 #page-header2 {
-    background-image: url(img/banner/b19.jpg);
+    background-image: url(/img/banner/b19.jpg);
     width: 100%;
     height: 40vh;
     background-size: cover;
@@ -641,7 +641,7 @@ body {
 /* blog  page */
 
 #page-header2.header3 {
-    background-image: url(img/about/banner.png);
+    background-image: url(/img/about/banner.png);
 }
 
 #about-head {
@@ -916,6 +916,149 @@ body {
 }
 
 
+/* blog post page */
+
+#blog-host {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ededf0;
+    border-bottom: 1px solid #222;
+}
+
+.top-content {
+    text-align: center;
+}
+
+.top-content img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+.top-content span {
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.blog-content {
+    width: 900px;
+    padding: 34px 12px;
+    text-align: center;
+}
+
+.blog-content h2 {
+    font-weight: 850;
+    color: #000;
+    margin-bottom: 6px;
+}
+
+.blog-content h6 {
+    font-weight: 400;
+}
+
+.blog-content .img {
+    width: 100%;
+}
+
+.blog-content .img img {
+    margin-top: 14px;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50%;
+    border-radius: 0.3rem;
+    margin-bottom: 1.4rem;
+}
+
+.blog-paragraphe p {
+    text-align: left;
+    color: #222;
+    margin-bottom: 1.5rem;
+    line-height: 27px;
+}
+
+.img-gallary {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.img-gallary img {
+    width: 260px;
+    height: 190px;
+}
+
+#related-content h1 {
+    font-size: 2.3rem;
+    font-size: 900;
+    color: #000;
+}
+
+.related-content-blog {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 26px;
+}
+
+.related-img {
+    margin-right: 34px;
+    width: 250px;
+}
+
+.related-img img {
+    width: 100%;
+    border-radius: 6px;
+    height: 165px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.related-text-section {
+    width: 700px;
+    padding: 6px;
+}
+
+.related-text-section a {
+    text-decoration: none;
+    color: initial;
+}
+
+.related-text-section a h4 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #000;
+}
+
+.related-text-section a span {
+    font-size: 0.8rem;
+    color: #041e42;
+    font-weight: 500;
+    border-bottom: 1px solid #088161;
+}
+
+.related-text-section p {
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.related-text-section button {
+    border-bottom: 1px solid #0511be;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.related-text-section button:hover {
+    background-color: #088178;
+    color: #fff;
+    border-bottom: none;
+}
+
+
 /* newsletter */
 
 #newletter {
@@ -923,7 +1066,7 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background-image: url(img/banner/b14.png);
+    background-image: url(/img/banner/b14.png);
     background-size: cover;
     background-position: 20% 30%;
     background-repeat: no-repeat;
@@ -1148,6 +1291,13 @@ footer .copyright p img {
     #form-details form {
         width: 50%;
     }
+    /* blog post */
+    .img-gallary {
+        height: auto;
+    }
+    .img-gallary img {
+        width: 325px;
+    }
 }
 
 @media (max-width:477px) {
@@ -1261,5 +1411,24 @@ footer .copyright p img {
     #form-details form {
         width: 100%;
         margin-bottom: 30px;
+    }
+    /* blog post */
+    .blog-paragraphe p {
+        font-size: 0.9rem;
+        line-height: 25px;
+    }
+    .img-gallary img {
+        width: 47%;
+        height: 150px;
+        object-fit: cover;
+        object-position: center;
+    }
+    .related-content-blog {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .related-img,
+    .related-img img {
+        width: 100%;
     }
 }
